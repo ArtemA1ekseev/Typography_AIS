@@ -1,0 +1,631 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="textBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 21</value>
+  </data>
+  <data name="textBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 20</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="textBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;textBox4.Name" xml:space="preserve">
+    <value>textBox4</value>
+  </data>
+  <data name="&gt;&gt;textBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox4.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;textBox4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>614, 19</value>
+  </data>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 58</value>
+  </data>
+  <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Поиск по макету</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 21</value>
+  </data>
+  <data name="textBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 20</value>
+  </data>
+  <data name="textBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;textBox3.Name" xml:space="preserve">
+    <value>textBox3</value>
+  </data>
+  <data name="&gt;&gt;textBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox3.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;textBox3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>457, 19</value>
+  </data>
+  <data name="groupBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 58</value>
+  </data>
+  <data name="groupBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>Поиск по виду оплаты</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Name" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 21</value>
+  </data>
+  <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 20</value>
+  </data>
+  <data name="textBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
+    <value>textBox2</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 19</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 58</value>
+  </data>
+  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Поиск по ФИО</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 21</value>
+  </data>
+  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 20</value>
+  </data>
+  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
+    <value>textBox1</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 58</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Поиск по наименованию</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 224</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 90</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Панель управления</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="кодЗаказаDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Код заказа</value>
+  </data>
+  <data name="наименованиеПродукцииDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Наименование продукции</value>
+  </data>
+  <data name="фИОКлиентаDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>ФИО клиента</value>
+  </data>
+  <data name="датаЗаказаDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Дата заказа</value>
+  </data>
+  <data name="дизайнерDataGridViewCheckBoxColumn.HeaderText" xml:space="preserve">
+    <value>Дизайнер</value>
+  </data>
+  <data name="наименованиеМакетаDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Наименование макета</value>
+  </data>
+  <data name="стоимостьМакетаDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Стоимость макета, (руб.)</value>
+  </data>
+  <data name="видОплатыDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Вид оплаты</value>
+  </data>
+  <data name="количествоDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Количество, (шт.)</value>
+  </data>
+  <data name="скидкаDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Скидка, %</value>
+  </data>
+  <data name="итогоDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Итого, (руб.)</value>
+  </data>
+  <metadata name="zAKAZZBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>323, 17</value>
+  </metadata>
+  <metadata name="typographyDataSet12.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>153, 17</value>
+  </metadata>
+  <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="dataGridView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>771, 206</value>
+  </data>
+  <data name="dataGridView1.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Name" xml:space="preserve">
+    <value>dataGridView1</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>587, 320</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 23</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>Экспортировать</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 320</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 23</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Вернуться назад</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="saveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="zAKAZZTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>496, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>795, 354</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAOZVAADmVQAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAFAAA
+        AEkAAAA6AAAAMQAAADMAAAAzAAAAMQAAADoAAABJAAAAEwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA
+        AAAAAAAtAAAAkAAAAMwAAAD/AAAA/QAAAP0AAAD/AAAAzAAAAJAAAAAtAAAAAAAAAAIAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAEAAAABAAAAAQAAAAEAAAABAAA
+        AAQAAAAEAAAABAAAAAcAAAAAAAAAjAAAAP8AAAD7AAAA+wAAAP8AAACMAAAAAAAAAAcAAAAEAAAABAAA
+        AAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAABaAAAAsAAAAJ8AAACfAAAAsAAAAFoAAAAAAAAAAwAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAXwAA
+        AI4AAACLAAAAiwAAAIsAAACLAAAAiwAAAIsAAACLAAAAjAAAAIMAAACHAAAAlQAAAJUAAACHAAAAgwAA
+        AIwAAACLAAAAiwAAAIsAAACLAAAAiwAAAIsAAACLAAAAjgAAAGAAAAAGAAAAAAAAAAAAAAACAAAAAAAA
+        AKAAAAD/AAAA/AAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD9AAAA/wAAANcAAACMAAAAjAAA
+        ANcAAAD/AAAA/QAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD8AAAA/wAAAKAAAAAAAAAAAgAA
+        AAAAAAAnAAAA/wAAAP8AAAD+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP4AAAD/AAAA4gAA
+        AK0AAACtAAAA4gAAAP8AAAD+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP4AAAD/AAAA/gAA
+        ACcAAAAAAAAAAAAAABUAAABjAAAAXgAAAF0AAABdAAAAXQAAAF0AAABdAAAAXQAAAF0AAABdAAAAXgAA
+        AFwAAABlAAAAcQAAAHEAAABlAAAAXAAAAF4AAABdAAAAXQAAAF0AAABdAAAAXQAAAF0AAABdAAAAXQAA
+        AF4AAABjAAAAFQAAAAAAAAAAAAAAKAAAANEAAADZAAAA4wAAAOIAAADiAAAA4gAAAOAAAADhAAAA4gAA
+        AOIAAADiAAAA4AAAAOEAAADdAAAA3gAAAOAAAADhAAAA4gAAAOAAAADiAAAA4gAAAOAAAADiAAAA4gAA
+        AOIAAADjAAAA2QAAANEAAAAoAAAAAAAAAAAAAAAxAAAA/wAAALkAAACFAAAAjAAAAIsAAACKAAAAkgAA
+        AIoAAACHAAAAigAAAIwAAACTAAAAigAAAJAAAACPAAAAjQAAAJIAAACJAAAAkgAAAI0AAACNAAAAkgAA
+        AIoAAACLAAAAjAAAAIUAAAC5AAAA/wAAADEAAAAAAAAAAAAAADAAAAD/AAAAUQAAAIoAAACqAAAAoQAA
+        AK4AAAA/AAAAlAAAAL8AAACqAAAAmQAAADMAAACwAAAAXAAAAGYAAACEAAAAQQAAALoAAAA7AAAAiwAA
+        AIsAAAA9AAAArgAAAKEAAACqAAAAigAAAFEAAAD/AAAAMAAAAAAAAAAAAAAAMQAAAP8AAABaAAAA4AAA
+        AP8AAAD7AAAA/wAAAGQAAACPAAAAvgAAAPMAAADyAAAAVAAAAP8AAACSAAAAogAAAM8AAABrAAAA/wAA
+        AGAAAADaAAAA2gAAAGQAAAD/AAAA+wAAAP8AAADgAAAAWgAAAP8AAAAxAAAAAAAAAAAAAAAxAAAA/wAA
+        AFgAAADcAAAA/wAAAPcAAAD/AAAAXwAAAGYAAACMAAAA5gAAAPEAAABOAAAA/wAAAI4AAACfAAAAzAAA
+        AGcAAAD/AAAAWwAAANYAAADWAAAAXwAAAP8AAAD4AAAA/wAAANwAAABYAAAA/wAAADEAAAAAAAAAAAAA
+        ADEAAAD/AAAAWAAAAN8AAAD/AAAA+wAAAP8AAABhAAAAswAAAOsAAAD8AAAA8AAAAFAAAAD/AAAAkAAA
+        AKEAAADOAAAAaAAAAP8AAABcAAAA2QAAANkAAABgAAAA/wAAAPsAAAD/AAAA3wAAAFgAAAD/AAAAMQAA
+        AAAAAAAAAAAAMQAAAP8AAABYAAAA3wAAAP8AAAD6AAAA/wAAAF8AAABFAAAAZAAAAOAAAAD2AAAATwAA
+        AP8AAACQAAAAoQAAAM4AAABoAAAA/wAAAFwAAADZAAAA2QAAAGAAAAD/AAAA+wAAAP8AAADfAAAAWAAA
+        AP8AAAAxAAAAAAAAAAAAAAAxAAAA/wAAAFgAAADfAAAA/wAAAPsAAAD/AAAAYgAAAMwAAAD/AAAA/wAA
+        AO8AAABQAAAA/wAAAJAAAAChAAAAzgAAAGgAAAD/AAAAXAAAANkAAADZAAAAYAAAAP8AAAD7AAAA/wAA
+        AN8AAABYAAAA/wAAADEAAAAAAAAAAAAAADEAAAD/AAAAWAAAAN8AAAD/AAAA+gAAAP8AAABfAAAANgAA
+        AFIAAADcAAAA9wAAAE4AAAD/AAAAkAAAAKEAAADOAAAAaAAAAP8AAABcAAAA2QAAANkAAABgAAAA/wAA
+        APsAAAD/AAAA3wAAAFgAAAD/AAAAMQAAAAAAAAAAAAAAMQAAAP8AAABYAAAA3wAAAP8AAAD7AAAA/wAA
+        AGIAAADNAAAA/wAAAP8AAADvAAAAUAAAAP8AAACQAAAAoQAAAM4AAABoAAAA/wAAAFwAAADZAAAA2QAA
+        AGAAAAD/AAAA+wAAAP8AAADfAAAAWAAAAP8AAAAxAAAAAAAAAAAAAAAxAAAA/wAAAFgAAADfAAAA/wAA
+        APoAAAD/AAAAXwAAADoAAABXAAAA3QAAAPcAAABOAAAA/wAAAJAAAAChAAAAzgAAAGgAAAD/AAAAXAAA
+        ANkAAADZAAAAYAAAAP8AAAD7AAAA/wAAAN8AAABYAAAA/wAAADEAAAAAAAAAAAAAADEAAAD/AAAAWAAA
+        AN8AAAD/AAAA+wAAAP8AAABiAAAAwgAAAP0AAAD/AAAA7wAAAFAAAAD/AAAAkAAAAKEAAADOAAAAaAAA
+        AP8AAABcAAAA2QAAANkAAABgAAAA/wAAAPsAAAD/AAAA3wAAAFgAAAD/AAAAMQAAAAAAAAAAAAAAMQAA
+        AP8AAABYAAAA3wAAAP8AAAD6AAAA/wAAAF8AAABTAAAAdgAAAOQAAAD1AAAATwAAAP8AAACQAAAAoQAA
+        AM4AAABoAAAA/wAAAFwAAADZAAAA2QAAAGAAAAD/AAAA+wAAAP8AAADfAAAAWAAAAP8AAAAxAAAAAAAA
+        AAAAAAAwAAAA/wAAAFkAAADdAAAA/wAAAPgAAAD/AAAAYAAAAKIAAADVAAAA9wAAAPEAAABQAAAA/wAA
+        AJAAAACfAAAAzAAAAGgAAAD/AAAAXAAAANkAAADZAAAAXwAAAP8AAAD4AAAA/wAAAN0AAABZAAAA/wAA
+        ADAAAAAAAAAAAAAAADEAAAD/AAAAVwAAAN8AAAD/AAAA+wAAAP8AAABhAAAAegAAAKUAAADtAAAA8wAA
+        AE8AAAD/AAAAkAAAAKEAAADOAAAAZwAAAP8AAABbAAAA1wAAANYAAABhAAAA/wAAAPsAAAD/AAAA3wAA
+        AFcAAAD/AAAAMQAAAAAAAAAAAAAAIgAAAP8AAAB6AAAARQAAAGMAAABcAAAAYgAAACUAAACEAAAAogAA
+        AO0AAADzAAAATwAAAP8AAACcAAAAMwAAAEIAAABuAAAA/wAAAGAAAADXAAAA4wAAACUAAABiAAAAXAAA
+        AGMAAABFAAAAegAAAP8AAAAhAAAAAAAAAAIAAAAAAAAAowAAAP8AAADhAAAA3gAAAN0AAADsAAAAVQAA
+        AKQAAADVAAAA9wAAAPEAAABQAAAA/wAAAJIAAACKAAAAtwAAAE8AAADTAAAAQwAAAJ0AAACfAAAAVQAA
+        AOwAAADdAAAA3gAAAOEAAAD/AAAAowAAAAAAAAACAAAAAAAAAAAAAAAFAAAAYAAAAJkAAACWAAAAlQAA
+        AKAAAAA5AAAAWgAAAHQAAADkAAAA9QAAAE8AAAD/AAAAmAAAAFcAAACBAAAAEwAAAHQAAABvAAAAegAA
+        AEEAAAAwAAAAogAAAJUAAACWAAAAmQAAAGAAAAAFAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA
+        AAAAAAABAAAAAAAAAAUAAADTAAAA+QAAAP8AAADvAAAAUAAAAP8AAACjAAAAAAAAAAIAAAAHAAAA1gAA
+        AP8AAAD/AAAAWgAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAQAA
+        AAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAEoAAABSAAAA3QAAAPYAAABOAAAA/wAAAKIAAAAAAAAACwAA
+        AAAAAABUAAAA/wAAAL8AAAAAAAAAAgAAAAUAAAAEAAAABAAAAAQAAAAEAAAAAQAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAEAAAA3QAAAP8AAAD/AAAA7wAAAFEAAAD/AAAAoQAA
+        AAAAAAAEAAAAAAAAAAAAAADVAAAAWQAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmAAAAMwAAADIAAAAvAAAAEAAA
+        ADUAAAAbAAAAAAAAAAEAAAAAAAAAAAAAABUAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA//////+gBf//oAX/QAgQApfoF+lAAAACQAAAAoAAAAGAAAABgAAAAYAA
+        AAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAUAA
+        AAJAAAAClQCBKUAAogL9AKJ//ICSf///ov8=
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Экспорт данных таблицы "Заказы"</value>
+  </data>
+  <data name="&gt;&gt;zAKAZZBindingSource.Name" xml:space="preserve">
+    <value>zAKAZZBindingSource</value>
+  </data>
+  <data name="&gt;&gt;zAKAZZBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;typographyDataSet12.Name" xml:space="preserve">
+    <value>typographyDataSet12</value>
+  </data>
+  <data name="&gt;&gt;typographyDataSet12.Type" xml:space="preserve">
+    <value>WindowsFormsApp1.TypographyDataSet12, TypographyDataSet12.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog1.Name" xml:space="preserve">
+    <value>saveFileDialog1</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;zAKAZZTableAdapter.Name" xml:space="preserve">
+    <value>zAKAZZTableAdapter</value>
+  </data>
+  <data name="&gt;&gt;zAKAZZTableAdapter.Type" xml:space="preserve">
+    <value>WindowsFormsApp1.TypographyDataSet12TableAdapters.ZAKAZZTableAdapter, TypographyDataSet12.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;кодЗаказаDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>кодЗаказаDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;кодЗаказаDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;наименованиеПродукцииDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>наименованиеПродукцииDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;наименованиеПродукцииDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;фИОКлиентаDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>фИОКлиентаDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;фИОКлиентаDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;датаЗаказаDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>датаЗаказаDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;датаЗаказаDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;дизайнерDataGridViewCheckBoxColumn.Name" xml:space="preserve">
+    <value>дизайнерDataGridViewCheckBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;дизайнерDataGridViewCheckBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;наименованиеМакетаDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>наименованиеМакетаDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;наименованиеМакетаDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;стоимостьМакетаDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>стоимостьМакетаDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;стоимостьМакетаDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;видОплатыDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>видОплатыDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;видОплатыDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;количествоDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>количествоDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;количествоDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;скидкаDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>скидкаDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;скидкаDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;итогоDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>итогоDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;итогоDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form21</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

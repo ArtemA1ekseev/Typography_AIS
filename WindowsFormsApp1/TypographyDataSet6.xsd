@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TypographyDataSet6" targetNamespace="http://tempuri.org/TypographyDataSet6.xsd" xmlns:mstns="http://tempuri.org/TypographyDataSet6.xsd" xmlns="http://tempuri.org/TypographyDataSet6.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="TypographyConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TypographyConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WindowsFormsApp1.Properties.Settings.GlobalReference.Default.TypographyConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Otch1TableAdapter" GeneratorDataComponentClassName="Otch1TableAdapter" Name="Otch1" UserDataComponentName="Otch1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TypographyConnectionString (Settings)" DbObjectName="Typography.dbo.Otch1" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ФИО, Телефон, Вид_заказчика, Наименование_организации, Дата_заказа, Наименование_продукции, Стоимость_продукции, Количество, Скидка FROM dbo.Otch1</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ФИО" DataSetColumn="ФИО" />
+              <Mapping SourceColumn="Телефон" DataSetColumn="Телефон" />
+              <Mapping SourceColumn="Вид_заказчика" DataSetColumn="Вид_заказчика" />
+              <Mapping SourceColumn="Наименование_организации" DataSetColumn="Наименование_организации" />
+              <Mapping SourceColumn="Дата_заказа" DataSetColumn="Дата_заказа" />
+              <Mapping SourceColumn="Наименование_продукции" DataSetColumn="Наименование_продукции" />
+              <Mapping SourceColumn="Стоимость_продукции" DataSetColumn="Стоимость_продукции" />
+              <Mapping SourceColumn="Количество" DataSetColumn="Количество" />
+              <Mapping SourceColumn="Скидка" DataSetColumn="Скидка" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Otch2TableAdapter" GeneratorDataComponentClassName="Otch2TableAdapter" Name="Otch2" UserDataComponentName="Otch2TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TypographyConnectionString (Settings)" DbObjectName="Typography.dbo.Otch2" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Код_заказа, ФИО, Вид_заказчика, Состояние_заказа FROM dbo.Otch2</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Код_заказа" DataSetColumn="Код_заказа" />
+              <Mapping SourceColumn="ФИО" DataSetColumn="ФИО" />
+              <Mapping SourceColumn="Вид_заказчика" DataSetColumn="Вид_заказчика" />
+              <Mapping SourceColumn="Состояние_заказа" DataSetColumn="Состояние_заказа" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="TypographyDataSet6" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="TypographyDataSet6" msprop:Generator_UserDSName="TypographyDataSet6">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Otch1" msprop:Generator_TableClassName="Otch1DataTable" msprop:Generator_TableVarName="tableOtch1" msprop:Generator_TablePropName="Otch1" msprop:Generator_RowDeletingName="Otch1RowDeleting" msprop:Generator_RowChangingName="Otch1RowChanging" msprop:Generator_RowEvHandlerName="Otch1RowChangeEventHandler" msprop:Generator_RowDeletedName="Otch1RowDeleted" msprop:Generator_UserTableName="Otch1" msprop:Generator_RowChangedName="Otch1RowChanged" msprop:Generator_RowEvArgName="Otch1RowChangeEvent" msprop:Generator_RowClassName="Otch1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ФИО" msprop:Generator_ColumnVarNameInTable="columnФИО" msprop:Generator_ColumnPropNameInRow="ФИО" msprop:Generator_ColumnPropNameInTable="ФИОColumn" msprop:Generator_UserColumnName="ФИО">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Телефон" msprop:Generator_ColumnVarNameInTable="columnТелефон" msprop:Generator_ColumnPropNameInRow="Телефон" msprop:Generator_ColumnPropNameInTable="ТелефонColumn" msprop:Generator_UserColumnName="Телефон">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Вид_заказчика" msprop:Generator_ColumnVarNameInTable="columnВид_заказчика" msprop:Generator_ColumnPropNameInRow="Вид_заказчика" msprop:Generator_ColumnPropNameInTable="Вид_заказчикаColumn" msprop:Generator_UserColumnName="Вид_заказчика">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Наименование_организации" msprop:Generator_ColumnVarNameInTable="columnНаименование_организации" msprop:Generator_ColumnPropNameInRow="Наименование_организации" msprop:Generator_ColumnPropNameInTable="Наименование_организацииColumn" msprop:Generator_UserColumnName="Наименование_организации" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Дата_заказа" msprop:Generator_ColumnVarNameInTable="columnДата_заказа" msprop:Generator_ColumnPropNameInRow="Дата_заказа" msprop:Generator_ColumnPropNameInTable="Дата_заказаColumn" msprop:Generator_UserColumnName="Дата_заказа" type="xs:dateTime" />
+              <xs:element name="Наименование_продукции" msprop:Generator_ColumnVarNameInTable="columnНаименование_продукции" msprop:Generator_ColumnPropNameInRow="Наименование_продукции" msprop:Generator_ColumnPropNameInTable="Наименование_продукцииColumn" msprop:Generator_UserColumnName="Наименование_продукции">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="155" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Стоимость_продукции" msprop:Generator_ColumnVarNameInTable="columnСтоимость_продукции" msprop:Generator_ColumnPropNameInRow="Стоимость_продукции" msprop:Generator_ColumnPropNameInTable="Стоимость_продукцииColumn" msprop:Generator_UserColumnName="Стоимость_продукции" type="xs:decimal" />
+              <xs:element name="Количество" msprop:Generator_ColumnVarNameInTable="columnКоличество" msprop:Generator_ColumnPropNameInRow="Количество" msprop:Generator_ColumnPropNameInTable="КоличествоColumn" msprop:Generator_UserColumnName="Количество" type="xs:int" />
+              <xs:element name="Скидка" msprop:Generator_ColumnVarNameInTable="columnСкидка" msprop:Generator_ColumnPropNameInRow="Скидка" msprop:Generator_ColumnPropNameInTable="СкидкаColumn" msprop:Generator_UserColumnName="Скидка" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Otch2" msprop:Generator_TableClassName="Otch2DataTable" msprop:Generator_TableVarName="tableOtch2" msprop:Generator_TablePropName="Otch2" msprop:Generator_RowDeletingName="Otch2RowDeleting" msprop:Generator_RowChangingName="Otch2RowChanging" msprop:Generator_RowEvHandlerName="Otch2RowChangeEventHandler" msprop:Generator_RowDeletedName="Otch2RowDeleted" msprop:Generator_UserTableName="Otch2" msprop:Generator_RowChangedName="Otch2RowChanged" msprop:Generator_RowEvArgName="Otch2RowChangeEvent" msprop:Generator_RowClassName="Otch2Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Код_заказа" msprop:Generator_ColumnVarNameInTable="columnКод_заказа" msprop:Generator_ColumnPropNameInRow="Код_заказа" msprop:Generator_ColumnPropNameInTable="Код_заказаColumn" msprop:Generator_UserColumnName="Код_заказа" type="xs:int" />
+              <xs:element name="ФИО" msprop:Generator_ColumnVarNameInTable="columnФИО" msprop:Generator_ColumnPropNameInRow="ФИО" msprop:Generator_ColumnPropNameInTable="ФИОColumn" msprop:Generator_UserColumnName="ФИО">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Вид_заказчика" msprop:Generator_ColumnVarNameInTable="columnВид_заказчика" msprop:Generator_ColumnPropNameInRow="Вид_заказчика" msprop:Generator_ColumnPropNameInTable="Вид_заказчикаColumn" msprop:Generator_UserColumnName="Вид_заказчика">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Состояние_заказа" msprop:Generator_ColumnVarNameInTable="columnСостояние_заказа" msprop:Generator_ColumnPropNameInRow="Состояние_заказа" msprop:Generator_ColumnPropNameInTable="Состояние_заказаColumn" msprop:Generator_UserColumnName="Состояние_заказа">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Otch2" />
+      <xs:field xpath="mstns:Код_заказа" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

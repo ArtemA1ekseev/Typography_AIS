@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TypographyDataSet10" targetNamespace="http://tempuri.org/TypographyDataSet10.xsd" xmlns:mstns="http://tempuri.org/TypographyDataSet10.xsd" xmlns="http://tempuri.org/TypographyDataSet10.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="TypographyConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TypographyConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WindowsFormsApp1.Properties.Settings.GlobalReference.Default.TypographyConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="1RekTableAdapter" GeneratorDataComponentClassName="_1RekTableAdapter" Name="1Rek" UserDataComponentName="1RekTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TypographyConnectionString (Settings)" DbObjectName="Typography.dbo.[1Rek]" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Название_организации, ИНН, КПП, Адрес, Телефон, Сайт_организации, Электронная_почта, Банк, Бик, к_с, р_с, ФИО_руководителя, ФИО_экономиста FROM dbo.[1Rek]</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Название_организации" DataSetColumn="Название_организации" />
+              <Mapping SourceColumn="ИНН" DataSetColumn="ИНН" />
+              <Mapping SourceColumn="КПП" DataSetColumn="КПП" />
+              <Mapping SourceColumn="Адрес" DataSetColumn="Адрес" />
+              <Mapping SourceColumn="Телефон" DataSetColumn="Телефон" />
+              <Mapping SourceColumn="Сайт_организации" DataSetColumn="Сайт_организации" />
+              <Mapping SourceColumn="Электронная_почта" DataSetColumn="Электронная_почта" />
+              <Mapping SourceColumn="Банк" DataSetColumn="Банк" />
+              <Mapping SourceColumn="Бик" DataSetColumn="Бик" />
+              <Mapping SourceColumn="к_с" DataSetColumn="к_с" />
+              <Mapping SourceColumn="р_с" DataSetColumn="р_с" />
+              <Mapping SourceColumn="ФИО_руководителя" DataSetColumn="ФИО_руководителя" />
+              <Mapping SourceColumn="ФИО_экономиста" DataSetColumn="ФИО_экономиста" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="TypographyDataSet10" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="TypographyDataSet10" msprop:Generator_UserDSName="TypographyDataSet10">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="_x0031_Rek" msprop:Generator_TableClassName="_1RekDataTable" msprop:Generator_TableVarName="table1Rek" msprop:Generator_TablePropName="_1Rek" msprop:Generator_RowDeletingName="_1RekRowDeleting" msprop:Generator_RowChangingName="_1RekRowChanging" msprop:Generator_RowEvHandlerName="_1RekRowChangeEventHandler" msprop:Generator_RowDeletedName="_1RekRowDeleted" msprop:Generator_UserTableName="1Rek" msprop:Generator_RowChangedName="_1RekRowChanged" msprop:Generator_RowEvArgName="_1RekRowChangeEvent" msprop:Generator_RowClassName="_1RekRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Название_организации" msprop:Generator_ColumnVarNameInTable="columnНазвание_организации" msprop:Generator_ColumnPropNameInRow="Название_организации" msprop:Generator_ColumnPropNameInTable="Название_организацииColumn" msprop:Generator_UserColumnName="Название_организации">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ИНН" msprop:Generator_ColumnVarNameInTable="columnИНН" msprop:Generator_ColumnPropNameInRow="ИНН" msprop:Generator_ColumnPropNameInTable="ИННColumn" msprop:Generator_UserColumnName="ИНН">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="КПП" msprop:Generator_ColumnVarNameInTable="columnКПП" msprop:Generator_ColumnPropNameInRow="КПП" msprop:Generator_ColumnPropNameInTable="КППColumn" msprop:Generator_UserColumnName="КПП">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Адрес" msprop:Generator_ColumnVarNameInTable="columnАдрес" msprop:Generator_ColumnPropNameInRow="Адрес" msprop:Generator_ColumnPropNameInTable="АдресColumn" msprop:Generator_UserColumnName="Адрес">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Телефон" msprop:Generator_ColumnVarNameInTable="columnТелефон" msprop:Generator_ColumnPropNameInRow="Телефон" msprop:Generator_ColumnPropNameInTable="ТелефонColumn" msprop:Generator_UserColumnName="Телефон">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Сайт_организации" msprop:Generator_ColumnVarNameInTable="columnСайт_организации" msprop:Generator_ColumnPropNameInRow="Сайт_организации" msprop:Generator_ColumnPropNameInTable="Сайт_организацииColumn" msprop:Generator_UserColumnName="Сайт_организации">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Электронная_почта" msprop:Generator_ColumnVarNameInTable="columnЭлектронная_почта" msprop:Generator_ColumnPropNameInRow="Электронная_почта" msprop:Generator_ColumnPropNameInTable="Электронная_почтаColumn" msprop:Generator_UserColumnName="Электронная_почта">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Банк" msprop:Generator_ColumnVarNameInTable="columnБанк" msprop:Generator_ColumnPropNameInRow="Банк" msprop:Generator_ColumnPropNameInTable="БанкColumn" msprop:Generator_UserColumnName="Банк">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Бик" msprop:Generator_ColumnVarNameInTable="columnБик" msprop:Generator_ColumnPropNameInRow="Бик" msprop:Generator_ColumnPropNameInTable="БикColumn" msprop:Generator_UserColumnName="Бик">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="к_с" msprop:Generator_ColumnVarNameInTable="columnк_с" msprop:Generator_ColumnPropNameInRow="к_с" msprop:Generator_ColumnPropNameInTable="к_сColumn" msprop:Generator_UserColumnName="к_с">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="р_с" msprop:Generator_ColumnVarNameInTable="columnр_с" msprop:Generator_ColumnPropNameInRow="р_с" msprop:Generator_ColumnPropNameInTable="р_сColumn" msprop:Generator_UserColumnName="р_с">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ФИО_руководителя" msprop:Generator_ColumnVarNameInTable="columnФИО_руководителя" msprop:Generator_ColumnPropNameInRow="ФИО_руководителя" msprop:Generator_ColumnPropNameInTable="ФИО_руководителяColumn" msprop:Generator_UserColumnName="ФИО_руководителя">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ФИО_экономиста" msprop:Generator_ColumnVarNameInTable="columnФИО_экономиста" msprop:Generator_ColumnPropNameInRow="ФИО_экономиста" msprop:Generator_ColumnPropNameInTable="ФИО_экономистаColumn" msprop:Generator_UserColumnName="ФИО_экономиста">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
